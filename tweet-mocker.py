@@ -59,7 +59,7 @@ while True:
     # here's a sample substitution
     newstatus = status["text"].replace("dogs", "cats", 1)
 
-    print "New @"+target" status: " + newstatus.encode('utf-8')
+    print "New @"+target+" status: " + newstatus.encode('utf-8')
 
     # if no change was made, exit
     if newstatus == status["text"]:
