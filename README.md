@@ -1,6 +1,8 @@
 tweet-mocker
 ============
 
+Für mocking die Tweets.
+
 A Twitter bot which watches another Twitter account for tweets, modifies them, and retweets them as their own.
 
 I like to run it with this command:
