@@ -23,14 +23,14 @@ target = "desired-twitter-account-to-watch-here"
 while True:
   print time.asctime(time.localtime())
   # get last status
-	try:
-		status = twitter.show_user(screen_name=target)["status"]
-	except Exception, exception:
-		print "Error:"
-		print exception
-		print 'Sleeping... \n'
-		time.sleep(3600)
-		continue
+  try:
+    status = twitter.show_user(screen_name=target)["status"]
+  except Exception, exception:
+    print "Error:"
+    print exception
+    print 'Sleeping... \n'
+    time.sleep(3600)
+    continue
   # get a particular status
   # status = twitter.show_status(id="999999999999999999")
   
