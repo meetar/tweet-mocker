@@ -3,7 +3,7 @@ tweet-mocker
 
 Für mocken die Tweets.
 
-A Twitter bot which watches another Twitter account for tweets, modifies them, and retweets them as their own.
+A Twitter bot which watches another Twitter account for tweets, modifies them in some way, and tweets the result.
 
 Intended to be run under Linux, but it might work on other systems.
 
